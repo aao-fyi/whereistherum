@@ -1,9 +1,0 @@
-{{ $icon := . }}
-{{ $iconPath := "icons/lucide/" }}
-{{ $iconResource := resources.Get (printf "%s%s.svg" $iconPath (lower $icon)) }}
-
-{{ if $iconResource }}
-  <span class="icon" aria-hidden="true">
-    {{ $iconResource.Content | safeHTML }}
-  </span>
-{{ end }}

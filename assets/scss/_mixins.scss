@@ -1,5 +1,0 @@
-@mixin loadvars($vars) {
-  @each $key, $value in $vars {
-    --#{$key}: #{$value};
-  }
-}

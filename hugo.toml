@@ -1,0 +1,64 @@
+# Info
+baseURL = 'https://whereistherum.com/'
+languageCode = 'en'
+title = 'Where Is The Rum?'
+description = 'The rum is gone.'
+copyright = 'aao.fyi'
+
+# Shock Theme
+# Replace 'gitlab.com' with 'github.com' if error loading
+theme = 'gitlab.com/aao-fyi/shock'
+
+# Features
+disableHugoGeneratorInject = false
+disableKinds = ['taxonomy', 'term']
+enableGitInfo = true
+enableRobotsTXT = true
+
+# Minify
+[minify]
+  minifyOutput = true
+
+# Module
+[module]
+  # Version
+  [module.hugoVersion]
+    extended = true
+    min = '0.110.0'
+
+# Parameters
+[params]
+  # Manifest
+  manifestJSON = true
+  manifestColorBG = '#333'
+
+# Privacy
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = true
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = true
+    privacyEnhanced = true
+
+# Services
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+  [services.twitter]
+    disableInlineCSS = true
