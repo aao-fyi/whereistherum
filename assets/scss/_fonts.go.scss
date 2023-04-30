@@ -1,0 +1,9 @@
+/* IMFell */
+{{ with resources.Get "fonts/imfell/IMFell-Italic.woff2" }}
+  @font-face {
+    font-family: 'IMFell';
+    font-style: normal;
+    font-weight: 400;
+    src: url('{{ .RelPermalink }}') format('woff2');
+  }
+{{ end }}

@@ -25,6 +25,12 @@ enableRobotsTXT = true
   [module.hugoVersion]
     extended = true
     min = '0.110.0'
+  # IMFell
+  [[module.imports]]
+    path = 'gitlab.com/aao-fyi/resources/fonts'
+  [[module.imports.mounts]]
+    source = 'IMFell/'
+    target = 'assets/fonts/imfell'
 
 # Parameters
 [params]
