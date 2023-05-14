@@ -1,4 +1,4 @@
-module gitlab.com/aao-fyi/whereistherum.com
+module gitlab.com/aao-fyi/whereistherum
 
 go 1.17
 

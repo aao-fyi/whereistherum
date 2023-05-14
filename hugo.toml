@@ -1,5 +1,5 @@
 # Info
-baseURL = 'https://whereistherum.com/'
+baseURL = 'https://whereistherum.aao.fyi/'
 languageCode = 'en'
 title = 'Where Is The Rum?'
 description = 'The rum is gone.'
@@ -24,7 +24,7 @@ enableRobotsTXT = true
   # Version
   [module.hugoVersion]
     extended = true
-    min = '0.110.0'
+    min = '0.111.0'
   # IMFell
   [[module.imports]]
     path = 'gitlab.com/aao-fyi/resources/fonts'
