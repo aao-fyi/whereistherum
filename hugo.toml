@@ -2,11 +2,8 @@
 baseURL = 'https://whereistherum.aao.fyi/'
 languageCode = 'en'
 title = 'Where Is The Rum?'
-description = 'The rum is gone.'
-copyright = 'aao.fyi'
 
-# Shock Theme
-# Replace 'gitlab.com' with 'github.com' if error loading
+# Theme
 theme = 'gitlab.com/aao-fyi/shock'
 
 # Features
@@ -18,6 +15,11 @@ enableRobotsTXT = true
 # Minify
 [minify]
   minifyOutput = true
+
+# Build
+[build]
+  # PostCSS
+  writeStats = true
 
 # Module
 [module]
@@ -34,9 +36,28 @@ enableRobotsTXT = true
 
 # Parameters
 [params]
+  description = "Four oh four, the rum is gone!"
+  # PostCSS
+  postCSS = true
+  # Navbar
+  navbarBrandLogo = true
+  navbarBrandText = false
+  navbarFixedTop = false
   # Manifest
-  manifestJSON = true
-  manifestColorBG = '#333'
+  manifestJSON = false
+
+# Menus
+[menu]
+  [[menu.footer]]
+    identifier = 'source'
+    name = 'Source'
+    url = 'https://gitlab.com/aao-fyi/whereistherum'
+    weight = 10
+  [[menu.footer]]
+    identifier = 'privacy'
+    name = 'Privacy'
+    url = 'https://aao.fyi/privacy/'
+    weight = 20
 
 # Privacy
 [privacy]
