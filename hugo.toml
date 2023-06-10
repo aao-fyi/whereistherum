@@ -37,6 +37,8 @@ enableRobotsTXT = true
 # Parameters
 [params]
   description = "Four oh four, the rum is gone!"
+  # Bootstrap
+  bootstrapJS = false
   # PostCSS
   postCSS = true
   # Navbar
