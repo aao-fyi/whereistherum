@@ -1,15 +1,13 @@
 {{ define "main" }}
-<div class="container text-center mt-5">
+<div class="container text-center my-5">
 	<h1>{{ .Site.Title }}</h1>
-
-	<hr class="border">
-
-  <p class="fs-3">{{ .Site.Params.Description }}</p>
 
 	{{/* Licensed from VectorStock(r) | Artist: popaukropa | Image ID: 22336265 */}}
 	{{ with resources.Get "img/beastie/beastie.png" }}
-    <img id="beastie" class="d-block mx-auto" src="{{ .RelPermalink }}" alt="Octopus pirate twisted around bottle of rum."/>
+    <img id="beastie" class="d-block mx-auto py-4" src="{{ .RelPermalink }}" alt="Octopus pirate twisted around bottle of rum."/>
   {{ end }}
+
+	<p class="fs-3">{{ .Site.Params.Description }}</p>
 
 </div>
 {{ end }}

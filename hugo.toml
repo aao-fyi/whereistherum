@@ -8,7 +8,7 @@ theme = 'gitlab.com/aao-fyi/shock'
 
 # Features
 disableHugoGeneratorInject = false
-disableKinds = ['taxonomy', 'term']
+disableKinds = ['RSS','taxonomy', 'term']
 enableGitInfo = true
 enableRobotsTXT = true
 
@@ -36,7 +36,7 @@ enableRobotsTXT = true
 
 # Parameters
 [params]
-  description = "Four oh four, the rum is gone!"
+  description = "Four oh four, the rum is gone."
   # Bootstrap
   bootstrapJS = false
   # PostCSS
@@ -51,12 +51,10 @@ enableRobotsTXT = true
 # Menus
 [menu]
   [[menu.footer]]
-    identifier = 'source'
-    name = 'Source'
-    url = 'https://gitlab.com/aao-fyi/whereistherum'
-    weight = 10
-  [[menu.footer]]
     identifier = 'privacy'
     name = 'Privacy'
     url = 'https://aao.fyi/privacy/'
-    weight = 20
+  [[menu.footer]]
+    identifier = 'source'
+    name = 'Source'
+    url = 'https://gitlab.com/aao-fyi/whereistherum'
